@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    /* Linguagem e ambiente */
+    "target": "es2017",                          /* Versão de JS de saída */
+    "module": "commonjs",                        /* Sistema de módulos */
+    "moduleResolution": "node",                  /* Resolução tipo Node */
+    "esModuleInterop": true,                     /* Import/Export CommonJS */
+    "forceConsistentCasingInFileNames": true,    /* Case sensível */
+
+    /* Diretórios */
+    "rootDir": "src",                            /* Código-fonte */
+    "outDir": "dist",                            /* Saída compilada */
+
+    /* Declarações (para publicar no npm) */
+    "declaration": true,                         /* Gera .d.ts */
+    "declarationMap": true,                      /* Gera sourcemap para .d.ts */
+
+    /* Verificação estrita */
+    "strict": true,                              /* Todas as checagens estritas */
+    "skipLibCheck": true                         /* Pula checagem de defs de terceiros */
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "tests"
+  ]
+}
