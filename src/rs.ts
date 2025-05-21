@@ -1,3 +1,4 @@
+// src/rs.ts
 import { EXP_TABLE, gfMul } from './gf'
 
 export function reedSolomon(data: number[], degree: number): number[] {
@@ -6,7 +7,7 @@ export function reedSolomon(data: number[], degree: number): number[] {
     const next = new Array(poly.length + 1).fill(0)
     for (let j = 0; j < poly.length; j++) {
       next[j] ^= gfMul(poly[j], EXP_TABLE[i])
-      next[j + 1] ^= poly[j]
+      next[j+1] ^= poly[j]
     }
     poly = next
   }

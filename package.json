@@ -1,6 +1,6 @@
 {
   "name": "qrmanual",
-  "version": "1.0.0",
+  "version": "1.3.1",
   "description": "Implementação de QR Code v2-L (25×25, correção L) em TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
