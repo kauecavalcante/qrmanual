@@ -1,4 +1,3 @@
-// src/svg.ts
 import { buildMatrix } from './matrix'
 
 export interface SVGOptions {

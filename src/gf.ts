@@ -1,5 +1,3 @@
-// src/gf.ts
-
 // 1) Cria as duas tabelas como instâncias de Uint8Array
 export const EXP_TABLE = new Uint8Array(512)
 export const LOG_TABLE = new Uint8Array(256)

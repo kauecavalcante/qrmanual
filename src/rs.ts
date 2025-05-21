@@ -1,4 +1,3 @@
-// src/rs.ts
 import { EXP_TABLE, gfMul } from './gf'
 
 export function reedSolomon(data: number[], degree: number): number[] {

@@ -1,4 +1,3 @@
-// src/encoder.ts
 export function encodePayloadToCodewords(payload: string): number[] {
   const maxDataCW = 34      // código de versão QR 2, level H = 34 data codewords
   const bytes = Array.from(new TextEncoder().encode(payload))
